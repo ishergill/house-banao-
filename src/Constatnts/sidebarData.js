@@ -1,12 +1,10 @@
-import {
-  dashboard,
-  projects,
-  projecttemplates,
-  resourcemgt,
-  tasks,
-  timelog,
-  users,
-} from "../assets/Dashboard";
+import dashboard from '../assets/Sidebar/dashboard.svg'
+import  projects from '../assets/Sidebar/projects.svg'
+import  projecttemplates from '../assets/Sidebar/projecttemplates.svg'
+import  resourcemgt from '../assets/Sidebar/resourcemgt.svg'
+import  tasks from '../assets/Sidebar/tasks.svg'
+import  timelog from '../assets/Sidebar/timelog.svg'
+import users from '../assets/Sidebar/timelog.svg'
 
 const sidebarData = [
   {

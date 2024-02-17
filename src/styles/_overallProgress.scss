@@ -1,0 +1,74 @@
+.OverallProgress {
+    border-radius: 1rem;
+    padding: 1rem;
+    background: #F3EAE5;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.OverallProgress__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    button {
+        display: flex;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+        padding: .4rem .6rem .4rem .8rem;
+        gap: .6rem;
+        width: 4rem;
+        align-items: center;
+        align-content: center;
+
+        img {
+            height: 1rem;
+        }
+
+        p {
+            font-size: .8rem;
+            font-weight: 400;
+        }
+    }
+}
+
+.OverallProgress__main {
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.OverallProgress__level {
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    margin: auto;
+
+    span {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+}
+
+.OverallProgress__level__95 {
+    color: #060606;
+
+}
+
+.OverallProgress__level__26 {
+    color: #18932E;
+}
+
+.OverallProgress__level__35 {
+    color: #DFA50E;
+}
+
+.OverallProgress__level__39 {
+    color: #E65E2B;
+}

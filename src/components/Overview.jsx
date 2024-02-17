@@ -13,10 +13,13 @@ function Overview() {
   return (
     <div className="Overview">
       <div className="Overview__top">
+        {/* <div className="Overview__top__arrow">
+          <img src={anglearrow} alt="arrowangle" />
+        </div> */}
         <h2>Overview</h2>
         <button>
           <p>Last 30 days</p>
-          <img src={anglearrow} />
+          <img src={anglearrow} alt="arrow angle" />
         </button>
       </div>
       <div className="Overview__content">
